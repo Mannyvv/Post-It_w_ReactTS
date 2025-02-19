@@ -21,11 +21,12 @@ function App() {
     <main>
       <h1>My todos</h1>
       <button onClick={createTodo}>+ new</button>
+      {todos.length?
       <ul>
         {todos.map((todo) => (
           <li key={todo.id}>{todo.content}</li>
         ))}
-      </ul>
+      </ul> : <h1>Loading...</h1>}
       <div>
         🥳 App successfully hosted. Try creating a new todo.
         <br />
