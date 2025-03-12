@@ -65,10 +65,7 @@ const TechstackPage = () => {
           <img className="image-fluid" alt="github" src={githublogo}></img>
           <h1>Github Pages</h1>
           <p>
-            Utilized React.js to create a dynamic web user interface. Hosted the
-            project's code on GitHub Pages for easy showcasing and deployment on
-            the web, while integrated to backend services on other cloud
-            services.
+            
           </p>
         </div>
         <div className="col-sm col-lg-4">
@@ -80,18 +77,14 @@ const TechstackPage = () => {
           ></img>
           <h1>AWS</h1>
           <p>
-            Implemented an Express.js server within a Docker container. Selected
-            Heroku as the hosting platform to deploy and manage the Docker
-            container,(Create, Read, Update, Delete) operations to my database.
+           
           </p>
         </div>
         <div className="col-sm col-lg-4">
           <img className="image-fluid" alt="postgreslogo" src={amplify}></img>
           <h1>Database</h1>
           <p>
-            Utilized ElephantSQL to host my PostgreSQL database, creating a
-            cloud-based database solution. This implementation ensures seamless
-            access and management of the PostgreSQL database in the cloud
+           
           </p>
         </div>
       </div>
