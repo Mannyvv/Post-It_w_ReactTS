@@ -12,11 +12,11 @@ const TechstackPage = () => {
     <div className="container">
 
       <hr className="bg-dark"></hr>
-      <div className="row">
-        <h1> <i>Old Tech Stack</i></h1>
+      <div className="row" >
+        <h1> <i>Old Tech Stack:</i></h1>
       </div>
 
-      <div className="row content">
+      <div className="row content" style={{ marginBottom: "50px" }}>
         <div className="col-sm col-lg-4">
           <img className="image-fluid" alt="github" src={githublogo}></img>
           <h1>Github Pages</h1>
@@ -51,20 +51,22 @@ const TechstackPage = () => {
           </p>
         </div>
       </div>
-      <div className="row">
-
-      </div>
+    
       <hr className="bg-dark"></hr>
 
       <div className="row ">
         <h1><i>Updated Tech Stack:</i></h1>
       </div>
-      <div className="row content">
+      <div className="row content" style={{ marginBottom: "50px" }}>
 
         <div className="col-sm col-lg-4">
           <img className="image-fluid" alt="github" src={githublogo}></img>
-          <h1>Github Pages</h1>
+          <h1>Github</h1>
           <p>
+            Utilized React.js with Typescript to create a dynamic web user interface. Hosted the
+            project's code on Github for easy showcasing and deployment on
+            the web, while integrated to backend services on AWS
+            services.
             
           </p>
         </div>
@@ -77,21 +79,20 @@ const TechstackPage = () => {
           ></img>
           <h1>AWS</h1>
           <p>
-           
+          Deployed project using AWS Amplify, leveraging its hosting capabilities to seamlessly serve my website while integrating backend services.
           </p>
         </div>
-        <div className="col-sm col-lg-4">
+        <div className="col-sm col-lg-4" style={{paddingTop:"30px"}}>
           <img className="image-fluid" alt="postgreslogo" src={amplify}></img>
           <h1>Database</h1>
           <p>
-           
+          Utilized AWS Amplify's backend services, including its database capabilities, to store and retrieve application data efficiently.
           </p>
         </div>
       </div>
-      <div className="row">
-
-      </div>
-      <hr className="bg-dark"></hr>
+  
+      <hr className="bg-dark" ></hr>
+      
 
 
 
